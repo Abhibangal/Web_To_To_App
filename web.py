@@ -12,7 +12,8 @@ def add_todo():
 
 
 st.title('To Do App')
-
+st.subheader('This is my first web application')
+st.write('<b>This app is to increase your productivity</b>')
 for index, todo in enumerate(todos):
     checkbox = st.checkbox(todo, key=todo)
     if checkbox:
