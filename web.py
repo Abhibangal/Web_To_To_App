@@ -3,7 +3,7 @@ import action
 
 
 todos = action.show('todos.txt')
-
+st.set_page_config(layout='wide', page_title='TO-DO app')
 
 def add_todo():
     n_todo = st.session_state["new_todo"]
